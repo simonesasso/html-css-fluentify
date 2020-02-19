@@ -100,7 +100,7 @@ ul{
   padding-bottom: 5vh;
   text-indent: center;
 }
-hr{
+.hr-section1{
   width: 10%;
   margin: 5vh auto 0;
 
@@ -129,7 +129,37 @@ hr{
   display: table;
   clear: both;
 }
-.prova{
-  background-color: red;
-  height: 50vh;
+.border{
+  border-bottom: 1px solid grey;
+  width: 95%;
+  margin: 0 auto;
+}
+.s2-div1, .s2-div2{
+  float: left;
+  width: 50%;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.wrapper-2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#hiker-img{
+  ;
+}
+.text-s2{
+  padding: 5vh;
+  text-align: left;
+  margin-left: 20%;
+}
+.p-s2{
+  padding-top: 7vh;
+  color: grey;
+  text-indent: left;
+}
+.link-s2{
+  padding-top: 4vh;
+
 }
