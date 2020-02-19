@@ -76,3 +76,52 @@ ul{
   position: relative;
   top: 20px;
 }
+.section1{
+
+}
+.s1-div1{
+  background-color: #f9f9f9;
+  height: 20vh;
+}
+.s1-div2, .s1-div3, .s1-div4{
+
+  width: calc(86%/3);
+  float: left;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-indent: center;
+}
+hr{
+  width: 10%;
+  margin: 5vh auto 0;
+
+}
+.s1-div2{
+  margin-left:7%;
+}
+.h3-wrapper1{
+  padding-top: 10vh;
+  color: #99CC33;
+}
+
+.p-wrapper1{
+  padding: 5vh 5vw 0;
+  color: grey;
+}
+#img2{
+  padding-bottom: 13px;
+}
+#img3{
+  padding-bottom: 2px;
+}
+
+.wrapper-1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.prova{
+  background-color: red;
+  height: 50vh;
+}
